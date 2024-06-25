@@ -1,0 +1,90 @@
+# User-specific files
+*.swp
+*.swo
+*.xcuserstate
+.DS_Store
+
+# Swift Package Manager
+/.build
+/Packages
+/*.xcodeproj/project.xcworkspace/xcuserdata
+
+# Xcode
+# xcuserdata contains personal user data
+*.xccheckout
+*.xcscmblueprint
+*.xcuserdatad
+*.xcworkspace
+!default.xcworkspace
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Accio dependency manager
+Dependencies/
+.accio/
+
+# fastlane
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Xcode Patch
+/*.xcodeproj/*
+!/*.xcodeproj/project.pbxproj
+!/*.xcodeproj/xcshareddata
+!/*.xcworkspace/contents.xcworkspacedata
+!/*.xcworkspace/xcshareddata
+!/*.xcworkspace/xcuserdata
+
+# Build generated
+build/
+DerivedData/
+
+# Various settings
+*.xcsettings
+!default.xcsettings
+
+# Supporting files
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# App packaging
+*.xcent
+*.plist
+
+# Documentation
+*.docset
+
+# Logs
+*.log
+*.diagnostic
+*.profdata
+*.gcno
+
+# Symbolication
+*.bcsymbolmap
+
+# Firebase and Google Services
+GoogleService-Info.plist
+
+# Temporary files
+*.temp
+*.tmp
